@@ -1,0 +1,72 @@
+---
+title: "What does the internet say about you?"
+author:
+- name: Andrew Heiss, PhD
+  affiliation: "Andrew Young School of Policy Studies<br>Georgia State University"
+  email: aheiss@gsu.edu
+date: >-
+  February 5, 2021<br><br>
+  <small>Workshop for the Political Science Graduate Student Association<br>
+  Department of Political Science • Georgia State University</small>
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+---
+
+---
+
+## Slides
+
+<p><a class="btn btn-info btn-lg" target="_blank" href="slides.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-info btn-lg" target="_blank" href="slides.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "slides.html", ratio = "16:9")
+```
+
+View the [R Markdown source for the slides at GitHub](https://github.com/andrewheiss/2021-02-05_gsu-polisci-web-presence).
+
+## Tell people you exist
+
+- [Google Scholar](https://scholar.google.com/)
+- [ORCID](https://orcid.org/)
+- [Institutional directory](https://aysps.gsu.edu/profile/andrew-heiss/)
+- [LinkedIn](https://www.linkedin.com/)
+
+## Show people who you are
+
+Build your own website with one of these free services:
+
+- [Google Sites](https://sites.google.com/)
+- [WordPress](https://wordpress.com/)
+- [Wix](https://www.wix.com/)
+- [Weebly](https://www.weebly.com/)
+
+More control:
+
+- [Netlify Drop](https://app.netlify.com/drop) (or the [full Netlify](https://www.netlify.com/))
+- [GitHub Pages](https://pages.github.com/)
+- Completely self-hosted
+    - [DigitalOcean](https://www.digitalocean.com/)
+    - [Installing the Apache Web Server on a DigitalOcean server](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04)
+
+Example pages:
+
+- [Suparna Chaudhry](http://www.suparnachaudhry.com/) (Google Sites + custom domain name)
+- [John Holbein](https://sites.google.com/site/johnbholbein/) (Google Sites + default domain name)
+- [Devon Cantwell](https://www.devoncantwell.com/) (Squarespace)
+- [Joannie Tremblay-Boire](http://joannieboire.weebly.com/) (Weebly)
+- [Scott Cowley](http://www.scottcowley.com/) (WordPress)
+- [Julia Silge](https://juliasilge.com/) (R Markdown + blogdown + [Hugo Academic](https://wowchemy.com/) + self-hosted)
+
+Domain names:
+
+- Best registrar I've found: [iwantmyname.com](https://iwantmyname.com/)
+
+## Show people what you do
+
+- [SocArXiv](https://socopen.org/)
+
+&nbsp;
+
+&nbsp;

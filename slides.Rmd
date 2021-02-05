@@ -1,0 +1,468 @@
+---
+title: "What does the internet say about you?"
+author: "Andrew Heiss"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    anchor_sections: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r packages-data, include=FALSE}
+library(tidyverse)
+library(kableExtra)
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+```
+
+class: center middle main-title section-title-6
+
+# What does the internet say about you?
+
+.class-info[
+
+**Andrew Heiss**
+
+.light[
+Andrew Young School of Policy Studies<br>
+Georgia State University
+]
+
+**andhs.co/gsu-internet**
+
+]
+
+---
+
+class: title title-inv-6
+
+# Plan for today
+
+--
+
+.box-5.medium.sp-after-half[Why care about an internet presence?]
+
+--
+
+.box-3.medium.sp-after-half[Tell people you exist]
+
+--
+
+.box-4.medium.sp-after-half[Show people who you are]
+
+--
+
+.box-7.medium[Show people what you do]
+
+---
+
+layout: false
+class: center middle section-title section-title-5 animated fadeIn
+
+# Why care about<br>an internet presence?
+
+---
+
+class: title title-5
+
+# It's nice to be known
+
+.box-inv-5.medium.sp-after-half[Reputation is crucial in academia]
+
+--
+
+.center.float-left.sp-after[.box-5.less-medium[Hiring]&ensp;.box-5.less-medium[Promotion]]
+
+--
+
+.center.float-left[.box-5.less-medium[Networking]&ensp;.box-5.less-medium[Citations]]
+
+---
+
+class: middle
+
+.box-5.huge[Control the<br>narrative!]
+
+---
+
+layout: false
+class: center middle section-title section-title-3 animated fadeIn
+
+# Tell people you exist
+
+---
+
+layout: true
+class: title title-3
+
+---
+
+# Search engine rankings
+
+.box-inv-3.medium[Algorithms determine your<br>rankings in search engines]
+
+--
+
+.box-3[Make profiles on standard websites<br>to borrow those sites' reputations]
+
+---
+
+# Use other peoples' websites
+
+--
+
+.box-inv-3.medium[Google Scholar]
+
+--
+
+.box-inv-3.medium[ORCID]
+
+--
+
+.box-inv-3.medium[Institutional directory]
+
+--
+
+.box-inv-3.medium[LinkedIn]
+
+---
+
+# Link your profiles
+
+&nbsp;
+
+.box-inv-3.medium[List your different profiles on each site<br> to help the algorithm link them together]
+
+---
+
+layout: false
+class: center middle section-title section-title-4 animated fadeIn
+
+# Show people who you are
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Show people who you are
+
+&nbsp;
+
+--
+
+.box-inv-4.medium.sp-after[Your own website]
+
+--
+
+.box-inv-4.medium[Social media]
+
+---
+
+# Use your own website
+
+.box-inv-4.medium[Have a central place that is<br>all about you and what you do]
+
+--
+
+.box-4[Control the narrative about you]
+
+--
+
+.box-4[Point everything else here]
+
+---
+
+# How and where?
+
+.box-inv-4.medium[A website is .smaller[(typically)] a set of<br>HTML files that lives on a<br>computer somewhere in the world]
+
+--
+
+.box-4[Use someone else's server or your own]
+
+---
+
+# Site creation + hosting
+
+.pull-left[
+.box-inv-4[.medium[Google sites]<br>.light.small[(free; limited design choices)]]
+
+.box-inv-4[.medium[Wix]<br>.light.small[(free/paid; ad-supported)]]
+
+.box-inv-4[.medium[Your institution]<br>.light.small[(free; unknown process for editing)]]
+]
+
+.pull-right[
+.box-inv-4[.medium[WordPress]<br>.light.small[(free/paid; more design options)]]
+
+.box-inv-4[.medium[Weebly]<br>.light.small[(free/paid; ad-supported)]]
+
+.box-inv-4[.medium[Squarespace]<br>.light.small[(free/paid; ad-supported)]]
+]
+
+---
+
+# More technical + more control
+
+.pull-left[
+.box-inv-4[.medium[Netlify]<br>.light.small[(free; supply your own HTML)]]
+]
+
+.pull-right[
+.box-inv-4[.medium[GitHub Pages]<br>.light.small[(free; supply your own HTML)]]
+]
+
+.center[
+.box-inv-4[.medium[Self-hosted]<br>(like Digital Ocean)<br>.light.small[(cheap; total control; more complicated!)]]
+]
+
+---
+
+# Domain name
+
+.box-inv-4.medium[A domain name is an address<br>that points at a server]
+
+.box-4.sp-after[sites.google.com/yourname vs. yourname.com]
+
+--
+
+.box-inv-4.sp-before[You can point a domain name at<br>pretty much any hosting option]
+
+.box-4[iwantmyname.com]
+
+---
+
+# What should be there?
+
+.box-inv-4.medium[At minimum]
+
+--
+
+.float-left.center[.box-4[About]&ensp;.box-4[CV]]
+
+.float-left.center[.box-4[Research]&ensp;.box-4[Teaching]]
+
+--
+
+.box-inv-4.medium.sp-before[Other stuff]
+
+.float-left.center[.box-4[Blog]&ensp;.box-4[/uses & /now]]
+
+
+---
+
+# Social media
+
+&nbsp;
+
+.box-inv-4.medium[Have a presence on<br>social media]
+
+.box-4[Twitter, Instagram, TikTok, etc.]
+
+---
+
+# What should I post?
+
+.pull-left[
+.box-inv-4.medium[Strictly<br>professional]
+
+.box-4[Only advertise<br>your research]
+]
+
+--
+
+.pull-right[
+.box-inv-4.medium[Personal +<br>professional]
+
+.box-4[Show the world<br>who you are<br>.smaller[(part of that is research)]]
+]
+
+---
+
+# Why?
+
+.box-inv-4.medium[Boost your own work]
+
+.center[
+<figure>
+  <img src="img/twitter-citations.png" alt="Does Tweeting Improve Citations?" title="Does Tweeting Improve Citations?" width="60%">
+</figure>
+]
+
+???
+
+<https://doi.org/10.1016/j.athoracsur.2020.04.065>
+
+---
+
+# Why?
+
+.box-inv-4.medium[Build and participate in a community]
+
+--
+
+.box-4[\#acwri]
+
+--
+
+.center.float-left[.box-4[\#poliscicooks] .box-4[\#poliscibakes]]
+
+--
+
+.box-4[\#rstats]
+
+--
+
+.box-4[\#EconTwitter]
+
+---
+
+layout: false
+class: center middle section-title section-title-7 animated fadeIn
+
+# Show people what you do
+
+---
+
+layout: true
+class: title title-7
+
+---
+
+# Show people what you do
+
+&nbsp;
+
+--
+
+.box-inv-7.medium.sp-after[Your in-progress work]
+
+--
+
+.box-inv-7.medium[Your finished work]
+
+---
+
+layout: false
+
+.box-7.medium[How we normally think of our work and goals]
+
+&nbsp;
+
+.center[
+<figure>
+  <img src="img/normal-work.png" alt="How we normally think of our work" title="How we normally think of our work" width="100%">
+</figure>
+]
+
+???
+
+<http://varianceexplained.org/r/start-blog/>
+
+<https://rstudio.com/resources/rstudioconf-2019/the-unreasonable-effectiveness-of-public-work/>
+
+---
+
+.box-7.medium[How we *should* think of our work and goals]
+
+&nbsp;
+
+.center[
+<figure>
+  <img src="img/public-work.png" alt="How we normally think of our work" title="How we normally think of our work" width="100%">
+</figure>
+]
+
+???
+
+<http://varianceexplained.org/r/start-blog/>
+
+<https://rstudio.com/resources/rstudioconf-2019/the-unreasonable-effectiveness-of-public-work/>
+
+---
+
+layout: true
+class: title title-7
+
+---
+
+# Make your work available
+
+--
+
+.box-inv-7.medium[Most journals allow you to<br>post preprints online]
+
+.box-7.sp-after[(pre-typeset and pre-edited versions)]
+
+--
+
+.box-inv-7.medium[Consider posting<br>working papers too!]
+
+---
+
+# Where?
+
+--
+.box-inv-7.medium[~~Academia.edu & ResearchGate~~]
+
+--
+
+.box-inv-7.medium.sp-after[Make it as easy as possible<br>to access your stuff!]
+
+--
+
+.center.float-left[.box-7[Your own website]&ensp;.box-7[Institutional repository]]
+
+.center.float-left[.box-7[SocArXiv]&ensp;.box-7[Dropbox]&ensp;.box-7[Google Drive]]
+
+---
+
+layout: false
+class: title title-6
+
+# Control your internet presence!
+
+--
+
+.box-3.medium[Tell people you exist]
+
+.box-inv-3.small.sp-after[List yourself on existing websites]
+
+--
+
+.box-4.medium[Show people who you are]
+
+.box-inv-4.small.sp-after[Make your own website and use social media]
+
+--
+
+.box-7.medium[Show people what you do]
+
+.box-inv-7.small[Show your in-progress and finished work]
+
+
+```{r echo=FALSE, include=FALSE, eval=FALSE}
+pagedown::chrome_print("slides.html", output = "slides.pdf")
+```
